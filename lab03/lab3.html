@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Smart Parking - Lab 3</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="../index.html" class="nav-link">Home</a>
+        </nav>
+
+        <div class="container">
+            <h1 class="title">Smart Parking Dashboard</h1>
+            <h2 class="subtitle">Tec de Monterrey - IoT Simulation</h2>
+
+            <!-- Dashboard -->
+            <div class="dashboard">
+                <div class="dashboard-card">
+                    <h3>Total Spaces</h3>
+                    <p id="total-spaces">0</p>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Occupied</h3>
+                    <p id="occupied-spaces">0</p>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Available</h3>
+                    <p id="available-spaces">0</p>
+                </div>
+                <div class="dashboard-card">
+                    <h3>Occupancy %</h3>
+                    <p id="occupancy-percentage">0%</p>
+                </div>
+            </div>
+
+            <!-- Wstacionamiento -->
+            <div class="parking-wrapper">
+                <div id="parking-lot">
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
